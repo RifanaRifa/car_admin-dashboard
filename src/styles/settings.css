@@ -1,0 +1,116 @@
+.settings {
+    margin-top: 100px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.settings_wrapper {
+    padding: 20px;
+    border-radius: 5px;
+    /* background: rgb(223, 221, 221); */
+    background: #ffffff;
+}
+
+.settings_title {
+    color: #343a40;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.settings_top {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.setting_btn {
+    border: none;
+    border: none;
+    padding: 7px 25px;
+    background: transparent;
+    border-radius: 5px;
+    color: #343a40;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.active_btn {
+    background: #b7ffe913;
+}
+
+.profile_title {
+    color: #343a40;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile_desc {
+    color: #343a40;
+    margin-bottom: 2rem;
+}
+
+label {
+    color: #343a40;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.form_group div {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form_group div input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #c1bebe;
+    color: #6b6b6c;
+    font-size: 1rem;
+}
+
+.form_group div input::placeholder {
+    font-size: 0.9rem;
+}
+
+.form_group div input:focus {
+    outline: none;
+    color: black;
+}
+
+.profile-img_desc {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.profile_img-btns {
+    display: flex;
+    flex-direction: row !important;
+    column-gap: 2.7rem;
+}
+
+.dlt_btn,
+.update_btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #343a40;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.update_btn {
+    color: var(--secondary-color);
+}
